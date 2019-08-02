@@ -26,15 +26,6 @@ Verify the deployment by navigating to your server address in your preferred bro
 
 - http://ec2-35-180-234-171.eu-west-3.compute.amazonaws.com/v1/account/
 
-- ```sh
-{
-    "firstname": "",
-    "lastname": "",
-    "email": "",
-    "mobile": "",
-    "created": null
-}
-```
 
 ### 2. Group Registration
 
@@ -64,7 +55,6 @@ Verify the deployment by navigating to your server address in your preferred bro
 ### 6. Group Search by Group Code
 
 - http://ec2-35-180-234-171.eu-west-3.compute.amazonaws.com/v1/group/code/search/
-
 
 
 
