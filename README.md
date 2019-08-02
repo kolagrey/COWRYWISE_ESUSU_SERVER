@@ -38,6 +38,30 @@ API
 
 - http://ec2-35-180-234-171.eu-west-3.compute.amazonaws.com/v1/account/
 
+#### Usage
+
+```sh
+# Body Parameters
+firstname [REQUIRED] [string]
+​lastname [REQUIRED]  [string]
+email [REQUIRED] [string]
+mobile [REQUIRE] [string]
+```
+
+```sh
+# Reponse
+{
+  "account_id": 1,
+  "firstname": "Temi",
+  "lastname": "Grey",
+  "email": "temi@asheori.com",
+  "mobile": "07033020200",
+  "created": "2019-08-01T09:35:22.054841Z"
+}
+```
+
+
+
 
 ### 2. Group Registration
 
@@ -70,7 +94,7 @@ API
 
 
 
-### Todos
+## Todos
 
  - Authentication
  - Cron Job for automatic billing and payout
