@@ -1,6 +1,6 @@
 # ESUSU CONFAM SERVER (BUILT WITH PYTHON 3)
 
-## How to setup the servers
+## How to setup the server locally
 
 ```sh
 $ git clone https://github.com/kolagrey/COWRYWISE_ESUSU_SERVER.git
@@ -18,6 +18,18 @@ Verify the deployment by navigating to your server address in your preferred bro
 
 ```sh
 127.0.0.1:8000
+```
+
+Admin
+
+```sh
+127.0.0.1:8000/admin
+```
+
+API
+
+```sh
+127.0.0.1:8000/v1/
 ```
 
 ## Endpoints
