@@ -32,7 +32,7 @@ API
 127.0.0.1:8000/v1/
 ```
 
-## Endpoints
+## Endpoints on AWS
 
 ### 1. User Registration
 
