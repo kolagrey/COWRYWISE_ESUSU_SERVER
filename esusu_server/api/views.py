@@ -42,6 +42,7 @@ class AccountGroupViewSet(viewsets.ModelViewSet):
     """
     queryset = AccountGroup.objects.all()
     serializer_class = AccountGroupSerializer
+    http_method_names = ['post', 'patch', 'get', 'head']
 
     def create(self, request):
         group_code = randint(100000, 999999)
@@ -56,6 +57,7 @@ class AccountGroupViewSet(viewsets.ModelViewSet):
 
 class AccountGroupCodeViewSet(viewsets.ModelViewSet):
     serializer_class = AccountGroupSerializer
+    http_method_names = ['get', 'head']
 
     def get_queryset(self):
         """
@@ -78,6 +80,7 @@ class AccountGroupSearchViewSet(viewsets.ModelViewSet):
     API endpoint that allows account groups to be created, viewed or edited.
     """
     serializer_class = AccountGroupSerializer
+    http_method_names = ['get', 'head']
 
     def get_queryset(self):
         """
