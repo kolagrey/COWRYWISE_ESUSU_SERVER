@@ -36,7 +36,7 @@ API
 
 ### 1. User Registration
 
-- http://ec2-35-180-234-171.eu-west-3.compute.amazonaws.com/v1/accounts/
+- domain/v1/accounts/
 
 #### Usage (POST)
 
@@ -63,7 +63,7 @@ mobile [REQUIRED][string]
 
 ### 2. Group Registration
 
-- http://ec2-35-180-234-171.eu-west-3.compute.amazonaws.com/v1/account/groups/
+- domain/v1/account/groups/
 
 #### Usage (POST)
 
@@ -95,7 +95,7 @@ searchable [OPTIONAL][boolean][default=false]
 
 ### 3. Admin's Group
 
-- http://ec2-35-180-234-171.eu-west-3.compute.amazonaws.com/v1/admin/group/
+- domain/v1/admin/group/
 
 #### Usage (GET)
 
@@ -103,7 +103,7 @@ searchable [OPTIONAL][boolean][default=false]
 # URL Parameters
 email=[admin email]
 # Example
-http://ec2-35-180-234-171.eu-west-3.compute.amazonaws.com/v1/admin/group?email=admin@email.com
+domain/v1/admin/group?email=admin@email.com
 ```
 
 ```sh
@@ -124,7 +124,7 @@ http://ec2-35-180-234-171.eu-west-3.compute.amazonaws.com/v1/admin/group?email=a
 
 ### 3. Group Search
 
-- http://ec2-35-180-234-171.eu-west-3.compute.amazonaws.com/v1/group/search/
+- domain/v1/group/search/
 
 #### Usage (GET)
 
@@ -132,7 +132,7 @@ http://ec2-35-180-234-171.eu-west-3.compute.amazonaws.com/v1/admin/group?email=a
 # URL Parameters
 search_params=[search text or phrase]
 # Example
-http://ec2-35-180-234-171.eu-west-3.compute.amazonaws.com/v1/group/search?search_params=admin@email.com
+domain/v1/group/search?search_params=admin@email.com
 ```
 
 ```sh
@@ -153,7 +153,7 @@ http://ec2-35-180-234-171.eu-west-3.compute.amazonaws.com/v1/group/search?search
 
 ### 4. Group Search by Group Code
 
-- http://ec2-35-180-234-171.eu-west-3.compute.amazonaws.com/v1/group/code/search/
+- domain/v1/group/code/search/
 
 #### Usage (GET)
 
@@ -161,7 +161,7 @@ http://ec2-35-180-234-171.eu-west-3.compute.amazonaws.com/v1/group/search?search
 # URL Parameters
 code=[group code]
 # Example
-http://ec2-35-180-234-171.eu-west-3.compute.amazonaws.com/v1/group/code/search?code=113537
+domain/v1/group/code/search?code=113537
 ```
 
 ```sh
@@ -182,7 +182,7 @@ http://ec2-35-180-234-171.eu-west-3.compute.amazonaws.com/v1/group/code/search?c
 
 ### 5. Group Contributions
 
-- http://ec2-35-180-234-171.eu-west-3.compute.amazonaws.com/v1/group/contribution/
+- domain/v1/group/contribution/
 
 #### Usage (GET)
 
@@ -190,7 +190,7 @@ http://ec2-35-180-234-171.eu-west-3.compute.amazonaws.com/v1/group/code/search?c
 # URL Parameters
 identifier=[group id]
 # Example
-http://ec2-35-180-234-171.eu-west-3.compute.amazonaws.com/v1/group/contribution?identifier=1
+domain/v1/group/contribution?identifier=1
 ```
 
 ```sh
